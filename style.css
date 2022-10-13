@@ -1,0 +1,50 @@
+/* Estilo de Perfil */
+ *{
+    font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+
+    font-family: 'Secular One', sans-serif;
+ }
+ /* contenedor de la ficha */
+ .contenedor {
+    width: 400px;
+    margin: 30px 30px;
+    border: 3px solid  #ADD8E6;
+    border-top-width: 50px;
+    position: relative;
+    padding: 30px 20px;
+ }
+ /* imagenes */
+ .ico_user {
+    height: 60px;
+    border: 3px solid  white;
+    position: absolute;
+    top:-30px;
+    border-radius: 50px;
+ }
+.ico_ficha {
+    height: 18px;
+    margin: 5px;
+ }
+
+ /* Texto */
+ .text_usuario {
+    font-size: 35px;
+ }
+
+ .linea_img {
+    /* con flex */
+    display: flex;
+    align-items:center;
+ }
+
+ .text_ubicacion {
+    font-size: 20px;
+ }
+
+ .texto {
+    font-size: 15px;
+ }
